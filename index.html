@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajkiya High School Khajhara, Chandauli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <img src="https://i.postimg.cc/rsbw9S8w/School-logo-png.png" alt="School Logo">
+                <h1 class="school-name">Rajkiya High School Khajhara</h1>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-slider">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">
+            <h2>Welcome to a Place of Learning & Growth</h2>
+            <p>Fostering the leaders of tomorrow with quality education.</p>
+        </div>
+    </section>
+
+    <section id="about" class="section-bg">
+        <div class="container reveal">
+            <h2 class="section-title">About Our School</h2>
+            <p class="section-subtitle">Rajkiya High School Khajhara is committed to providing quality education and fostering an environment of intellectual growth and character development.</p>
+        </div>
+    </section>
+
+    <section id="vision" class="parallax-section reveal">
+        <div class="parallax-content">
+            <h2>Our Vision</h2>
+            <p>To empower students with the knowledge and skills to excel in a rapidly changing world.</p>
+        </div>
+    </section>
+
+    <main id="gallery" class="section-bg-white">
+        <div class="container reveal">
+            <h2 class="section-title">Our Gallery</h2>
+            <p class="section-subtitle">A glimpse into the life at our school. Click on any image to view details.</p>
+            <div class="gallery-grid">
+                <img src="https://i.postimg.cc/4NNDvVmp/poster.png" alt="Poster Competition" class="popup-img" data-details="Students' creativity on display during the poster making competition.">
+                <img src="https://i.postimg.cc/RhqThSZN/post.png" alt="Student Achievement" class="popup-img" data-details="Celebrating the achievements and certifications of our talented students.">
+                <img src="https://i.postimg.cc/TwWTjmw0/exhibition.png" alt="Exhibition View" class="popup-img" data-details="An overview of the exhibits prepared by students with great enthusiasm.">
+                <img src="https://i.postimg.cc/WbySCk1L/Science-exhibition.png" alt="Science Project" class="popup-img" data-details="A detailed look at one of the winning projects from the science exhibition.">
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer" id="contact">
+        <div class="container">
+            <p>&copy; 2025 Rajkiya High School Khajhara, Chandauli. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div id="image-popup" class="popup">
+        <span class="close-btn">&times;</span>
+        <div class="popup-content">
+            <div class="popup-details">
+                <h3>Image Details</h3>
+                <p id="popup-text">Details about the image will appear here.</p>
+            </div>
+            <div class="popup-image-container">
+                <img class="popup-image" id="popup-img-src" src="" alt="Popup Image">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
